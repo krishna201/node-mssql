@@ -8,6 +8,8 @@ var methodOverride = require('method-override');
 var morgan = require('morgan');
 var fileUpload = require('express-fileupload');
 var example = require('./config/models');
+var swaggerJSDoc = require("swagger-jsdoc");
+var swaggerUi =  require("swagger-ui-express");
 
 var ip = require('ip');
 var port = process.env.PORT || 8088;
